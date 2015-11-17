@@ -1,0 +1,3 @@
+[submodule "server"]
+	path = server
+	url = git@github.com:katsew/express-sample.git
