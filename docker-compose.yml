@@ -11,6 +11,8 @@ app:
   hostname: app
   container_name: app
   build: ./app
+  volumes:
+    - "./server:/root/app"
   expose:
     - "3000"
   links:
